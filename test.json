@@ -1,0 +1,14 @@
+{
+    "unit_name" : "2017-c.2",
+    "devices" : [
+        {
+            "capacity" : "2398498209",
+            "storage_type" : "ssd"
+        },
+
+        {
+            "capacity" : "459835489",
+            "storage_type" : "ssd"
+        }
+    ]
+}
