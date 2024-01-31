@@ -26,10 +26,10 @@ schema1 = {
 
 """ # this JSON instance is not a valid object because there is no key for "2017-c.2"
 instance = {
-    "2017-c.2": [
+    "2003-xyz.2": [
         {
-            "capacity" : "2398498209",
-            "storage_type" : "ssd"
+            "capacity" : "239849820954321",
+            "storage_type" : "block"
         }
     ]
 } """
@@ -37,16 +37,16 @@ instance = {
 # this is a valid JSON object because there is now a key for both 2017-c.2 
 # and for the devices contained within that unit
 correct_instance = {
-    "unit_name" : "2017-c.2",
+    "unit_name" : "2003-xyz.2",
     "devices" : [
         {
-            "capacity" : "2398498209",
-            "storage_type" : "ssd"
+            "capacity" : "239849820954321",
+            "storage_type" : "block"
         },
 
         {
             "capacity" : "459835489",
-            "storage_type" : "ssd"
+            "storage_type" : "block"
         }
     ]
 }
